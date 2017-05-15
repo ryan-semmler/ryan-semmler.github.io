@@ -1,0 +1,22 @@
+.main {
+  background-color: #abcdef;
+}
+
+.topMargin {
+  padding-bottom: 50px;
+}
+
+.content {
+  width: 45%;
+  margin: auto;
+  background: rgba(255, 255, 255, .8);
+  padding-top: 5px;
+}
+
+h1 {
+  padding-left: 10px;
+}
+
+p {
+  padding-left: 10px;
+}
