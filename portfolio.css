@@ -16,15 +16,22 @@
 h1 {
   font-size: 48pt;
   text-align: center;
+  line-height: 90%;
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
 
 h2 {
   color: black;
+}
+
+a {
   text-decoration: none;
 }
 
-p {
+#bio {
   padding-left: 10px;
+  padding-top: 25px;
 }
 
 .projectThumbnail {
@@ -39,11 +46,26 @@ p {
   margin: auto;
 }
 
+#social {
+  /*width: 100%;*/
+  display: flex;
+  justify-content: center;
+  /*margin: auto;*/
+}
+
+.socialIcon {
+  height: 34px;
+  width: auto;
+  padding: 5px;
+}
+
 #projects {
   display: flex;
   flex-direction: row;
-  /*flex-wrap: wrap;*/
   justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 50px;
 }
 
 .project {
@@ -57,7 +79,6 @@ p {
   padding: 10px;
   display: flex;
   flex-direction: row;
-  padding-left: 10px;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
