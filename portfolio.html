@@ -3,18 +3,39 @@
   <head>
     <meta charset="utf-8">
     <title>Ryan Semmler</title>
-    <link rel="icon" href="ryansemmler.png" type="image/png">
+    <link rel="icon" href="favicon.png" type="image/png">
     <link rel="stylesheet" type="text/css" href="portfolio.css">
   </head>
   <body>
     <div class='main'>
       <div class='topMargin'></div>
       <div class='content'>
-        <div id='headshot'><img src='headshot.png'></div>
-        <h1>Ryan Semmler</h1>
-        <p class='bio'>Junior Back-end Developer in the Raleigh-Durham area.<br/>I love logic puzzles, basketball, and traveling.</p>
-        <p class='bio'>I started learning Python on my own three years ago, and I recently graduated from a Python prorgram at The Iron Yard in Durham.</p>
-        <p class='bio'>A few of my recent projects are highlighted below.</p>
+        <div id=header>
+          <div><img id='headshot' src='headshot.png'></div>
+          <h1>Ryan<br/>Semmler</h1>
+        </div>
+        <div id='bio'>
+          <p class='bio'>Junior Back-end Developer in the Raleigh-Durham area.<br/>I love logic puzzles, basketball, and traveling.</p>
+          <p class='bio'>I started learning Python on my own three years ago, and I recently graduated from a Python prorgram at The Iron Yard in Durham.</p>
+          <p class='bio'>A few of my recent projects are highlighted below.</p>
+        </div>
+        <div id='projects'>
+          <div class='project'>
+            <a href='https://masterpeace.herokuapp.com/'><img class='projectThumbnail' src='icon.png'></a>
+            <a href='https://masterpeace.herokuapp.com/'><h2>Masterpeace</h2></a>
+            <p>A full-scale social media web app for sharing and browsing art</p>
+          </div>
+          <div class='project'>
+            <a href='https://quiet-retreat-14165.herokuapp.com/'><img class='projectThumbnail' src='overflow.png'></a>
+            <a href='https://quiet-retreat-14165.herokuapp.com/'><h2>Question Box</h2></a>
+            <p>Stack Overflow clone, built on Django and delployed to Heroku</p>
+          </div>
+          <div class='project'>
+            <a href='https://movielens.herokuapp.com/'><img class='projectThumbnail' src='movielens.png'></a>
+            <a href='https://movielens.herokuapp.com/'><h2>Movielens</h2></a>
+            <p>App using 10,000 movie ratings to find top movies and recommend movies for individual users</p>
+          </div>
+        </div>
       </div>
     </div>
   </body>
