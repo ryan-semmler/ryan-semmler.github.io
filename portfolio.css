@@ -1,6 +1,13 @@
-.main {
-  background-color: #abcdef;
+body {
+  margin: 0 auto;
+  background: url('https://s3.amazonaws.com/americantobacco/images/News+Photos/_F2C0145+-0150+Panorama+small.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }
+
+/*.main {
+  background-color: #abcdef;
+}*/
 
 .topMargin {
   padding-bottom: 50px;
@@ -9,7 +16,7 @@
 .content {
   width: 45%;
   margin: auto;
-  background: rgba(255, 255, 255, .8);
+  background: rgba(255, 255, 255, .85);
   padding-top: 5px;
 }
 
@@ -19,6 +26,7 @@ h1 {
   line-height: 90%;
   margin-top: 25px;
   margin-bottom: 15px;
+  color: #454545;
 }
 
 h2 {
