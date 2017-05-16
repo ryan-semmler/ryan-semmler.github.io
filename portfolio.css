@@ -3,17 +3,26 @@ body {
   background: url('https://s3.amazonaws.com/americantobacco/images/News+Photos/_F2C0145+-0150+Panorama+small.jpg');
   background-size: cover;
   background-attachment: fixed;
+  font-family: Georgia;
 }
 
 /*.main {
   background-color: #abcdef;
 }*/
 
-.topMargin {
+#topMargin {
   padding-bottom: 50px;
 }
 
+#bottomMargin {
+  padding-top: 50px;
+}
+
 .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 50px;
   width: 45%;
   margin: auto;
   background: rgba(255, 255, 255, .85);
@@ -27,14 +36,11 @@ h1 {
   margin-top: 25px;
   margin-bottom: 15px;
   color: #454545;
+  font-weight: normal;
 }
 
 h2 {
   color: black;
-}
-
-a {
-  text-decoration: none;
 }
 
 #bio {
@@ -74,6 +80,7 @@ a {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .project {
@@ -90,4 +97,20 @@ a {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  border-top: thin solid #999;
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
